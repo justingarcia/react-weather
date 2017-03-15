@@ -3,7 +3,7 @@ var {Link, IndexLink} = require('react-router');
 
 var Nav = React.createClass({
 
-    onSearch: function() {
+    onSearch: function(e) {
         e.preventDefault();
         alert('TODO: weather search');
     },
